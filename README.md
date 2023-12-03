@@ -4,13 +4,13 @@
 - Escuela de Ingeniería Eléctrica
 - IE-0117 - Programación Bajo Plataformas Abiertas
 - II ciclo 2023
-- Laboratorio 05: Manipulación de imágenes usando lenguaje de programación Python
+- Proyecto Final: Consola de juegos
 - Participantes:
   - Dilana Rodríguez Jiménez (Carne C06660)
   - Kryssia Martínez Martínez (Carne B84636)
   - Randy Cascante Espinoza (Carné C11718)
   - Kristel Hidalgo Mata (Carne C23887)
-  -
+  
 - Profesora: Carolina Trejos
 - Fecha: 5 de Diciembre del 2023
 
