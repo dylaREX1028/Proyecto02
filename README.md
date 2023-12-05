@@ -248,6 +248,10 @@ Demostración de la interfaz gráfica de los juegos ejecutados
 
 ![Captura de pantalla 2023-12-05 132052](https://github.com/dylaREX1028/Proyecto02/assets/130623878/71902db1-f404-4e77-ba7d-478d2c8a0af6)
 
+![Captura de pantalla 2023-12-05 132109](https://github.com/dylaREX1028/Proyecto02/assets/130623878/831addc3-c3eb-412b-ba97-db8fc585e41c)
+
+
+
 
 
 
