@@ -290,7 +290,7 @@ def initialize_game():
     x_coordinate = (screen_width / 2) - (window_width / 2)
     y_coordinate = (screen_height / 2) - (window_height / 2)
     window.geometry('+{}+{}'.format(int(x_coordinate), int(y_coordinate)))
-    print("Funciona perfecto")
+    
     window.mainloop()  # Iniciar el bucle principal de la interfaz.
 
-initialize_game()  # Llamar a la función principal para iniciar el juego
+initialize_game()  # Llamar a la función principal para iniciar el juego.
