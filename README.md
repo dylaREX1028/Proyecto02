@@ -113,5 +113,5 @@ python3 snake.py
 Kryssia
 
 
-
+![8a97062b4bb84b8eb9207d61d0a5fe67](https://github.com/dylaREX1028/Proyecto02/assets/143848068/b8c72a99-4d18-4c24-b03b-3ebef067f98a)
 
