@@ -51,7 +51,60 @@ Este juego de la Serpiente (Snake) ha sido implementado en Python utilizando las
 - **Comida (Food):** Se coloca aleatoriamente en el lienzo del juego y cambia su apariencia cada vez que es consumida.
 - **Lienzo (Canvas):** Área donde se desarrolla el juego, mostrando la serpiente, comida y mensajes de fin de juego.
 - **Botones de Interfaz:** Botones para iniciar el juego, acceder a instrucciones o salir del juego.
+# Clases Relevantes
 
+### Clase Snake
+
+La clase `Snake` representa la serpiente en el juego y gestiona su movimiento y aspecto visual. Sus aspectos más importantes son:
+
+- **Constructor (`__init__`):** Inicializa la serpiente con un tamaño predefinido y crea cuadrados en el lienzo que representan su cuerpo.
+- **Métodos:**
+  - `__init__(self)`: Crea una serpiente con un tamaño inicial y coordenadas predefinidas.
+  - Otros métodos que manejan la actualización de las coordenadas y la apariencia de la serpiente.
+
+### Clase Food
+
+La clase `Food` se encarga de generar la comida de forma aleatoria en el juego. Sus puntos importantes son:
+
+- **Constructor (`__init__`):** Genera comida en ubicaciones aleatorias con formas y colores aleatorios.
+- **Métodos:**
+  - `__init__(self)`: Inicializa la comida con una forma y color aleatorios.
+  - `change_appearance(self)`: Cambia la apariencia de la comida de manera aleatoria.
+
+## Funciones Relevantes
+
+### `start_game()`
+
+La función `start_game()` es esencial para comenzar el juego. Realiza las siguientes acciones:
+
+- Oculta el menú de inicio.
+- Crea la ventana del juego.
+- Inicializa la serpiente y la comida.
+- Inicia el ciclo principal del juego llamando a la función `next_turn()`.
+
+### `next_turn()`
+
+Esta función controla cada turno del juego. Sus puntos claves son:
+
+- Mueve la serpiente en la dirección adecuada.
+- Verifica si la serpiente come la comida y actualiza la puntuación.
+- Maneja la generación de nueva comida y su apariencia.
+- Verifica colisiones y termina el juego si la serpiente choca.
+
+### `game_over()` y `restart_game()`
+
+Estas funciones gestionan el fin del juego y la posibilidad de reiniciar. Sus aspectos claves incluyen:
+
+- `game_over()`: Muestra la pantalla de fin de juego y opciones para volver a intentarlo o salir.
+- `restart_game()`: Reinicia el juego restableciendo la puntuación y los elementos del juego.
+
+### `change_direction(new_direction)`
+
+Controla el cambio de dirección de la serpiente según las teclas presionadas por el jugador.
+
+## Utilidad de estas Clases y Funciones
+
+Estas clases y funciones son cruciales para el funcionamiento y la lógica del juego de la serpiente. La clase `Snake` maneja el movimiento y el cuerpo de la serpiente, mientras que la clase `Food` gestiona la generación y apariencia de la comida. Las funciones como `start_game()` y `next_turn()` controlan la lógica del juego, incluyendo la detección de colisiones y el fin del juego.
 ## Cómo Jugar
 1. Al iniciar el juego, se muestra un menú.
 2. Utiliza las teclas de dirección para mover la serpiente y recolectar la comida.
