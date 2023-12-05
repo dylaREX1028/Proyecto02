@@ -289,3 +289,13 @@ Demostración de la interfaz gráfica de los juegos ejecutados
 ![Captura de pantalla 2023-12-05 112124](https://github.com/dylaREX1028/Proyecto02/assets/130623878/c4049ecf-46aa-4d62-8521-2868d77c75f4)
 
 ![Captura de pantalla 2023-12-05 112133](https://github.com/dylaREX1028/Proyecto02/assets/130623878/d04d74fb-55d4-48b4-8ac5-95cb1d63de54)
+
+## Discución de resultados
+Se logró implementar cuatro juegos distintos, cada uno con su propia lógica y mecánica de juego. La complejidad inherente a cada juego se ha manejado de manera eficiente, lo que refleja una comprensión profunda de los principios de programación y diseño de juegos.
+La interfaz gráfica proporciona una experiencia visual atractiva para los jugadores. La capacidad de interactuar con cada juego a través de esta interfaz agrega un valor significativo a la experiencia del usuario, facilitando la navegación entre juegos y proporcionando una forma intuitiva de empezar a jugar y salir del programa.
+
+La elección de juegos como Pin-pong, Snake, FlappyBird y Space Invaders ofrece diversidad a los usuarios. Cada juego presenta desafíos únicos, lo que garantiza que haya algo para todos los gustos. La variedad también demuestra la versatilidad de la implementación, mostrando la capacidad de adaptarse a diferentes estilos y mecánicas de juego. Por otro lado, la eficiencia del código es buena, se observa una ejecución fluida y sin problemas en todos los juegos, indicando un buen manejo de los recursos y una optimización adecuada del código Python.
+
+Como posibles mejoras: se podría considerar agregar más funcionalidades a la interfaz gráfica, como opciones de configuración, registros de puntuación y posiblemente la capacidad de personalizar ciertos aspectos del juego. Estas mejoras podrían aumentar aún más la inmersión y el atractivo del proyecto.
+
+Finalmente, el proyecto alcanzó sus objetivos al ofrecer una consola de juegos interactiva en Python. La combinación de variedad de juegos, eficiencia del código y una interfaz gráfica atractiva crea una experiencia positiva para los usuarios. Las posibles mejoras sugeridas podrían llevar el proyecto al siguiente nivel, proporcionando una base sólida para futuras expansiones y desarrollos.
