@@ -129,6 +129,7 @@ Demostración de la interfaz gráfica de los juegos ejecutados
 
 
 -`Flappy Bird:`
+
 ![Captura de pantalla 2023-12-05 111736](https://github.com/dylaREX1028/Proyecto02/assets/130623878/a1050b12-73c5-4989-b902-ab38491c4e9f)
 
 ![Captura de pantalla 2023-12-05 112547](https://github.com/dylaREX1028/Proyecto02/assets/130623878/4ae7ba1b-fa59-41e1-9656-fd28ec12f2ae)
