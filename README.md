@@ -110,8 +110,16 @@ python3 snake.py
 
 ## Ejemplos de cómo funciona
 
-Kryssia
+Demostración de la interfaz gráfica de los juegos ejecutados
+
+-`Pinpong:`
 
 
-![8a97062b4bb84b8eb9207d61d0a5fe67](https://github.com/dylaREX1028/Proyecto02/assets/143848068/b8c72a99-4d18-4c24-b03b-3ebef067f98a)
+-`Snake:`
+
+
+-`Space Invaders:`
+
+
+-`Flappy Bird:`
 
