@@ -117,6 +117,13 @@ Demostración de la interfaz gráfica de los juegos ejecutados
 
 -`Snake:`
 
+![Captura de pantalla 2023-12-05 114325](https://github.com/dylaREX1028/Proyecto02/assets/130623878/589bceab-7b3f-475c-83f1-3ba10217e70b)
+
+![Captura de pantalla 2023-12-05 115937](https://github.com/dylaREX1028/Proyecto02/assets/130623878/3a206cc6-450a-48a7-a6e6-356dc2108e16)
+
+![Captura de pantalla 2023-12-05 114615](https://github.com/dylaREX1028/Proyecto02/assets/130623878/60a0ad4e-3f25-43ac-ac80-dc0ac7532296)
+
+![Captura de pantalla 2023-12-05 114624](https://github.com/dylaREX1028/Proyecto02/assets/130623878/914e2cc8-90a2-4844-87c3-87c9eee876e4)
 
 -`Space Invaders:`
 
