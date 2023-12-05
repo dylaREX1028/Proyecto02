@@ -5,7 +5,11 @@
 # Importar los módulos necesarios
 from tkinter import *
 import random
-import tkinter
+import tkinter as tk
+import pygame
+
+# Inicializar Pygame
+pygame.init()
 
 # Definir las variables globales necesarias
 # Definir la ventana global
@@ -21,8 +25,8 @@ direction = 'down'
 score = 0
 
 # Dimensiones del juego
-GAME_WIDTH = 700
-GAME_HEIGHT = 700
+GAME_WIDTH = 850
+GAME_HEIGHT = 650
 SPEED = 150
 SPACE_SIZE = 50
 BODY_PARTS = 3
@@ -82,6 +86,7 @@ class Food:
 def start_game():
     global snake, food
     hide_menu()
+    create_game_window()  # Crear el canvas del juego 
     snake = Snake()
     food = Food()
     window.after(SPEED, next_turn)  # Llamar a next_turn después de iniciar el juego
@@ -114,7 +119,7 @@ def next_turn():
     if x == food.coordinates[0] and y == food.coordinates[1]:
         global score
         score += 1
-        label.config(text="Score:{}".format(score))
+        label.config(text="Puntuación:{}".format(score))
 
         # Cambiar la apariencia de la comida existente
         food.change_appearance()
@@ -174,10 +179,10 @@ def game_over():
     # Mostrar texto de fin del juego en el canvas
     canvas.delete(ALL)
     canvas.create_text(canvas.winfo_width() / 2, canvas.winfo_height() / 2,
-                       font=('consolas', 70), text="FIN DEL JUEGO!", fill="pink", tag="gameover")
+                       font=('Comic Sans MS', 70), text="FIN DEL JUEGO!", fill="pink", tag="gameover")
 
     # Crear botón "Reintentar" y colocarlo en el canvas
-    retry_button = Button(window, text="Reintentar", font=('consolas', 20), command=restart_game)
+    retry_button = Button(window, text="Reintentar", font=('Comic Sans MS', 20), command=restart_game)
     retry_button.pack()
     canvas.create_window(canvas.winfo_width() / 2, canvas.winfo_height() / 1.5, window=retry_button)
 
@@ -187,13 +192,14 @@ def restart_game():
     
     score = 0
     direction = 'down'
-    label.config(text="Score: {}".format(score))
+    label.config(text="Puntuación: {}".format(score))
 
     if canvas is not None:
         canvas.delete("all")  # Eliminar todo el contenido del canvas
+        canvas = None  # Establecer el canvas a None
 
-    create_game_window()  # Re-crear el canvas y empaquetarlo nuevamente
-    
+    create_game_window()  # Crear un nuevo canvas del juego
+
     # Restablecer la posición de la ventana
     window.update_idletasks()  # Actualizar la ventana para obtener el tamaño correcto
     window_width = window.winfo_width()
@@ -203,6 +209,7 @@ def restart_game():
     x_coordinate = (screen_width / 2) - (window_width / 2)
     y_coordinate = (screen_height / 2) - (window_height / 2)
     window.geometry('+{}+{}'.format(int(x_coordinate), int(y_coordinate)))
+
 
     # Inicializar una nueva serpiente y comida
     snake = Snake()
@@ -234,12 +241,12 @@ def show_instructions():
     - Utiliza las teclas de flecha (arriba, abajo, izquierda, derecha) para mover la serpiente.
     - El objetivo es comer la comida roja para crecer y obtener puntos.
     - Evita chocar contra las paredes o contra tu propia cola, esto terminará el juego.
-    - Haz clic en 'Start Game' para comenzar o 'Exit' para salir del juego.
+    - Haz clic en 'Iniciar Juego' para comenzar o 'Salir' para salir del juego.
     Presiona 'Volver al Menú' para regresar al menú principal.
     """
-    instruction_label = Label(window, text=instructions_text, font=('consolas', 14), justify=LEFT)
+    instruction_label = Label(window, text=instructions_text, font=('Comic Sans MS', 14), justify=LEFT)
     instruction_label.pack(pady=20)
-    back_to_menu_button = Button(window, text="Volver al Menú", font=('consolas', 16), command=display_main_menu)
+    back_to_menu_button = Button(window, text="Volver al Menú", font=('Comic Sans MS', 16), command=display_main_menu)
     back_to_menu_button.pack(pady=10)
 
 # Función para mostrar el menú principal
@@ -252,13 +259,13 @@ def display_main_menu():
 # Función para crear los botones y etiquetas del menú principal
 def create_buttons_and_labels():
     global label, start_button, instructions_button, exit_button
-    label = Label(window, text="Snake Game", font=('consolas', 24))
+    label = Label(window, text="Snake Game", font=('Comic Sans MS', 24))
     label.pack(pady=20)
-    start_button = Button(window, text="Start Game", font=('consolas', 16), command=restart_game)
+    start_button = Button(window, text="Iniciar Juego", font=('Comic Sans MS', 16), command=restart_game)
     start_button.pack(pady=10)
-    instructions_button = Button(window, text="Instructions", font=('consolas', 16), command=show_instructions)
+    instructions_button = Button(window, text="Instrucciones", font=('Comic Sans MS', 16), command=show_instructions)
     instructions_button.pack(pady=10)
-    exit_button = Button(window, text="Exit", font=('consolas', 16), command=exit_game)
+    exit_button = Button(window, text="Salir", font=('Comic Sans MS', 16), command=exit_game)
     exit_button.pack(pady=10)
 
 # Función principal para inicializar el juego
