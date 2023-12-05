@@ -34,7 +34,7 @@ Como `Paddle`: Representa las paletas de los jugadores. Puede dibujarse, moverse
 
 -`Snake:`
 
-Este juego de la Serpiente (Snake) ha sido implementado en Python utilizando las librerías Tkinter y Pygame. La idea principal del juego es controlar una serpiente para que recoja comida y crezca, evitando chocar consigo misma o con las paredes del juego.
+Este juego de la Serpiente (Snake) ha sido implementado en Python utilizando las librerías Tkinter y Pygame. La idea principal del juego es controlar una serpiente para que recoja comida y crezca, evitando chocar consigo misma o con las paredes del juego. Adicionalmente se le agregaron caracteristicas como que cambie de color la comida o de forma. 
 
 ## Funcionalidades y Características
 
