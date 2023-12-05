@@ -34,6 +34,46 @@ Como `Paddle`: Representa las paletas de los jugadores. Puede dibujarse, moverse
 
 -`Snake:`
 
+Este juego de la Serpiente (Snake) ha sido implementado en Python utilizando las librerías Tkinter y Pygame. La idea principal del juego es controlar una serpiente para que recoja comida y crezca, evitando chocar consigo misma o con las paredes del juego.
+
+## Funcionalidades y Características
+
+### Visión General
+- **Inicio del Juego:** El juego comienza con una ventana de menú que permite al jugador iniciar el juego, acceder a las instrucciones o salir.
+- **Controles:** El jugador puede mover la serpiente hacia arriba, abajo, izquierda o derecha usando las teclas de dirección.
+- **Puntuación:** La serpiente obtiene puntos cada vez que come comida.
+- **Fin del Juego:** Si la serpiente choca consigo misma o con las paredes, se muestra una pantalla de fin de juego.
+- **Reintentar:** Después del fin del juego, los jugadores pueden volver a intentar el juego.
+- **Instrucciones:** Se proporciona orientación sobre cómo jugar el juego.
+
+### Componentes Clave
+- **Serpiente (Snake):** Compuesta por una serie de cuadrados que representan partes del cuerpo. Cada vez que come comida, su longitud aumenta.
+- **Comida (Food):** Se coloca aleatoriamente en el lienzo del juego y cambia su apariencia cada vez que es consumida.
+- **Lienzo (Canvas):** Área donde se desarrolla el juego, mostrando la serpiente, comida y mensajes de fin de juego.
+- **Botones de Interfaz:** Botones para iniciar el juego, acceder a instrucciones o salir del juego.
+
+## Cómo Jugar
+1. Al iniciar el juego, se muestra un menú.
+2. Utiliza las teclas de dirección para mover la serpiente y recolectar la comida.
+3. Evita que la serpiente choque consigo misma o con las paredes.
+4. Gana puntos por cada pieza de comida recolectada.
+5. Intenta nuevamente si pierdes el juego.
+
+## Instalación y Ejecución
+Para jugar:
+1. Asegúrate de tener Python instalado en tu sistema.
+2. Clona este repositorio.
+3. Instala las dependencias requeridas (Tkinter, Pygame).
+4. Ejecuta el archivo `snake.py`.
+
+## Controles
+- Flecha Arriba: Mover la serpiente hacia arriba.
+- Flecha Abajo: Mover la serpiente hacia abajo.
+- Flecha Izquierda: Mover la serpiente hacia la izquierda.
+- Flecha Derecha: Mover la serpiente hacia la derecha.
+
+
+
 
 -`Space Invaders:`
 
