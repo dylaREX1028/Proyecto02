@@ -24,6 +24,14 @@ El presente proyecto consiste en el desarrollo de una consola de 4 juegos en leg
 
 El juego desarrollado de Ping-Pong se implementó con la biblioteca de Pygame. Y la finalidad del juego es que dos jugadores compiten controlando paletas para golpear una pelota.  El jugador de la izquierda se mueve con las teclas W y S para trasladarse hacia arriba o abajo, mientras que el jugador de la derecha se traslada con las flechas de arriba y abajo. Se gana el juego cuando un de los jugadores lleguen a la puntuación de 10 y cada punto se obtiene cuando a su contrincante no pueda golpear la pelota y esta se vaya fuera de la pantalla. Después de cada punto obtenido la pelota se reinicia en el centro de la pantalla.
 
+1. De clases se está se están manejado las siguientes:
+   
+Como `Paddle`: Representa las paletas de los jugadores. Puede dibujarse, moverse y reiniciarse a su posición original. Y `Ball`: Representa la pelota. Puede dibujarse, moverse y reiniciarse a su posición original.
+
+2. Respecto a las funciones Principales serían:
+
+`draw:` Dibuja en la ventana del juego las paletas, la pelota y las puntuaciones de los jugadores. `handle_collision:` Maneja las colisiones de la pelota con las paletas y los bordes de la ventana. `handle_paddle_movement:` Controla el movimiento de las paletas según las teclas presionadas por los jugadores. `main:` Función principal del juego. Configura los elementos iniciales, maneja el bucle principal del juego, detecta eventos, actualiza el movimiento de paletas y pelota, gestiona colisiones, controla las puntuaciones y muestra un mensaje de victoria cuando un jugador alcanza la puntuación definida para ganar.
+
 -`Snake:`
 
 
