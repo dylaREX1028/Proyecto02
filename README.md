@@ -120,6 +120,13 @@ Demostración de la interfaz gráfica de los juegos ejecutados
 
 -`Space Invaders:`
 
+![WhatsApp Image 2023-12-05 at 11 15 08 AM](https://github.com/dylaREX1028/Proyecto02/assets/143848068/a5877903-1430-424e-8d87-9b3bd271b2eb)
+
+![WhatsApp Image 2023-12-05 at 11 15 09 AM](https://github.com/dylaREX1028/Proyecto02/assets/143848068/a10d46e5-f2e5-4773-a5ad-68c6a130f119)
+
+![WhatsApp Image 2023-12-05 at 11 15 09 AM (1)](https://github.com/dylaREX1028/Proyecto02/assets/143848068/02592fcd-8c29-47f3-93e0-2561cb8011f9)
+
+
 
 -`Flappy Bird:`
 
