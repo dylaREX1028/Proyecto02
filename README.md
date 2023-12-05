@@ -34,35 +34,42 @@ sudo apt install python3-pip
 pip install pygame 
 pip install mixer
 ```
-Finalmente para ejecutar los 4 juegos es necesario que copie y pegue estos comando
-
-
-Si fuera el caso que esté utilizando `Windows` se recomienda instalar `Vison Code`
-la cual ya viene incluido todo los paqueyes que existen de python y correrlo en con el triangulo que se encuentra en el panel superior.
+Finalmente para ejecutar los 4 juegos es necesario que copie y pegue estos comando uno a uno para poder juagar cada juego.
 
 ```bash
-pip install pycharm 
+
+python3 Proyecto.py
+python3 frescuradecodigo.py
+python3 ping_pong_4.py
+python3 snake.py
+
+```
+
+
+Si fuera el caso que esté utilizando `Windows` se recomienda instalar `Visual Studio Code` y descaragr la biblioteca de Python, además de instalar las dependencias para que de igual manera funcione los programas. Para instalar las dependencias de necesario copiar y pegar los siguiente.
+
+```bash
+python.exe -m pip install --upgrade pip
+pip install tk
 pip install pygame 
 Pip install mixer
 ```
 
-```py
-from project_name import BaseClass
-from project_name import base_function
-
-BaseClass().base_method()
-base_function()
-
-
-```bash
-$ python -m project_name
-#or
-$ project_name
-```
 
 ## Pasos para ejecucion
 
-si alguien que no sabe nada de python quiere correr su proyecto en la terminal, debe tener todos los pasos necesarios para hacerlo
+Para ejecutar en `Linux` los 4 juegos es necesario que copie y pegue estos comando uno a uno para poder juagar cada juego en la terminal.
+
+```bash
+
+python3 Proyecto.py
+python3 frescuradecodigo.py
+python3 ping_pong_4.py
+python3 snake.py
+
+```
+
+Para correr los programas en `Windows` es indispensable darle al triangulo que se encuentra en el panel superior de Visual Studio Code.
 
 
 ## Ejemplos de como funciona
