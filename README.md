@@ -46,7 +46,7 @@ Donde se define la posición inicial del jugador, los enemigos y las balas, el t
 
 ### Limitaciones
 
-- Dilana
+En el presente proyecto se pretendía generar un menú para unir los 4 juegos, pero no fue posible generarlo. Dado que al realizar el menú solo se imprimián las interfaz gráficas de los juegos pero se ejecutaban. Por lo que se optó por generar un menú por cada juego, siendo posible 3 de los 4 juegos desarrollados.
 
 
 ## Dependencias e instalación
