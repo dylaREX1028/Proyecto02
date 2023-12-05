@@ -290,7 +290,7 @@ Demostración de la interfaz gráfica de los juegos ejecutados
 
 ![Captura de pantalla 2023-12-05 112133](https://github.com/dylaREX1028/Proyecto02/assets/130623878/d04d74fb-55d4-48b4-8ac5-95cb1d63de54)
 
-## Discución de resultados
+## Discusión de resultados
 Se logró implementar cuatro juegos distintos, cada uno con su propia lógica y mecánica de juego. La complejidad inherente a cada juego se ha manejado de manera eficiente, lo que refleja una comprensión profunda de los principios de programación y diseño de juegos.
 La interfaz gráfica proporciona una experiencia visual atractiva para los jugadores. La capacidad de interactuar con cada juego a través de esta interfaz agrega un valor significativo a la experiencia del usuario, facilitando la navegación entre juegos y proporcionando una forma intuitiva de empezar a jugar y salir del programa.
 
