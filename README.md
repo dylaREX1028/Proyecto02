@@ -142,14 +142,14 @@ Las funciones importantes del código son las siguientes:
 `1. bird(y)`
 
 Parámetro y: La posición vertical del pájaro en la pantalla.
-• Acción: Dibuja el pájaro en la posición (bird_x, y) en la pantalla.
+- Acción: Dibuja el pájaro en la posición (bird_x, y) en la pantalla.
 
 `3. pipes(x, gap)`
    
 Parámetros:
 - x: La posición horizontal de los tubos en la pantalla.
 - gap: La brecha entre los tubos.
-•	Acción: Dibuja los tubos en la posición (x, gap - pipe_height) y (x, gap + pipe_gap) en la pantalla.
+- Acción: Dibuja los tubos en la posición (x, gap - pipe_height) y (x, gap + pipe_gap) en la pantalla.
 
 `4. show_score(score, x, y)`
    
@@ -157,29 +157,29 @@ Parámetros:
 - score: El puntaje actual del jugador.
 - x: La posición horizontal donde se muestra el puntaje.
 - y: La posición vertical donde se muestra el puntaje.
-•	Acción: Muestra el puntaje en la pantalla en la posición (x, y).
+- Acción: Muestra el puntaje en la pantalla en la posición (x, y).
 
 `5. game_over_text()`
    
-• Acción: Muestra el texto "Game Over" en el centro de la pantalla.
+- Acción: Muestra el texto "Game Over" en el centro de la pantalla.
 
 
 `6. final_score_text(score)`
    
  Parámetro score: El puntaje final del jugador.
-•Acción: Muestra el puntaje final del jugador en la pantalla.
+- Acción: Muestra el puntaje final del jugador en la pantalla.
 
 `7. start_menu()`
 
-• Acción: Muestra el menú de inicio que indica al jugador que presione la barra espaciadora para comenzar y "P" para pausar.
+- Acción: Muestra el menú de inicio que indica al jugador que presione la barra espaciadora para comenzar y "P" para pausar.
 
 `8. again_exit_menu()`
 
-• Acción: Muestra el menú que aparece cuando el juego termina, indicando al jugador que presione "A" para jugar de nuevo o "Q" para salir.
+- Acción: Muestra el menú que aparece cuando el juego termina, indicando al jugador que presione "A" para jugar de nuevo o "Q" para salir.
 
 `9. pause_menu()`
 
-• Acción: Muestra el menú de pausa que aparece cuando el juego está pausado, indicando al jugador que presione "P" para reanudar.
+- Acción: Muestra el menú de pausa que aparece cuando el juego está pausado, indicando al jugador que presione "P" para reanudar.
 
 
 
