@@ -32,6 +32,7 @@ Como `Paddle`: Representa las paletas de los jugadores. Puede dibujarse, moverse
 
 `draw:` Dibuja en la ventana del juego las paletas, la pelota y las puntuaciones de los jugadores. `handle_collision:` Maneja las colisiones de la pelota con las paletas y los bordes de la ventana. `handle_paddle_movement:` Controla el movimiento de las paletas según las teclas presionadas por los jugadores. `main:` Función principal del juego. Configura los elementos iniciales, maneja el bucle principal del juego, detecta eventos, actualiza el movimiento de paletas y pelota, gestiona colisiones, controla las puntuaciones y muestra un mensaje de victoria cuando un jugador alcanza la puntuación definida para ganar.
 
+
 -`Snake:`
 
 Este juego de la Serpiente (Snake) ha sido implementado en Python utilizando las librerías Tkinter y Pygame. La idea principal del juego es controlar una serpiente para que recoja comida y crezca, evitando chocar consigo misma o con las paredes del juego. Adicionalmente se le agregaron caracteristicas como que cambie de color la comida o de forma. 
@@ -112,19 +113,11 @@ Estas clases y funciones son cruciales para el funcionamiento y la lógica del j
 4. Gana puntos por cada pieza de comida recolectada.
 5. Intenta nuevamente si pierdes el juego.
 
-## Instalación y Ejecución
-Para jugar:
-1. Asegúrate de tener Python instalado en tu sistema.
-2. Clona este repositorio.
-3. Instala las dependencias requeridas (Tkinter, Pygame).
-4. Ejecuta el archivo `snake.py`.
-
 ## Controles
 - Flecha Arriba: Mover la serpiente hacia arriba.
 - Flecha Abajo: Mover la serpiente hacia abajo.
 - Flecha Izquierda: Mover la serpiente hacia la izquierda.
 - Flecha Derecha: Mover la serpiente hacia la derecha.
-
 
 
 
