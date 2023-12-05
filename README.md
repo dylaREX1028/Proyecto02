@@ -15,12 +15,30 @@
 - Fecha: 5 de Diciembre del 2023
 
 
-## Descripcion del proyecto
+## Descripción del proyecto
 El presente proyecto consiste en el desarrollo de una consola de 4 juegos en leguage de programación python. Al ejecutar el código este despliega un menú con 5 botones que 4 de ellos son los juegos y uno de ellos es para salir del programa. Lo juegos disponibles son Pin-pong, Snake, FlappyBird y Space invaders. 
 
 
-## Dependencias e instalacion
-Para ejecutar el siguiente programa es necesario instalar estas dependecias de python según el sistema operativo que utlice. En el caso que esté utilizando `Linux`, solo necesita copiar y pegar estas dependencias en su terminal y darle enter para que estas se instalen. Si fuera el caso que esté utilizando `Windows` se recomienda instalar `Anaconda` la cual ya viene incluido todo los paqueyes que existen de python y correrlo en `spider`.
+
+
+
+## Dependencias e instalación
+Para ejecutar el siguiente programa es necesario primeramente descargar los documentos que se encuentran en la carteptas sin importar el sistema operativo que esté utilizando. 
+
+Ahora, si está utilizando `Linux`, hay que instalar python3 y las dependecias necesarias para correr los programas. Solo necesita copiar y pegar estas dependencias en su terminal y darle enter para que estas se instalen.
+
+```bash
+sudo apt update
+sudo apt install python3
+sudo apt install python3-pip
+pip install pygame 
+pip install mixer
+```
+Finalmente para ejecutar los 4 juegos es necesario que copie y pegue estos comando
+
+
+Si fuera el caso que esté utilizando `Windows` se recomienda instalar `Vison Code`
+la cual ya viene incluido todo los paqueyes que existen de python y correrlo en con el triangulo que se encuentra en el panel superior.
 
 ```bash
 pip install pycharm 
