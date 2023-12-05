@@ -22,6 +22,7 @@ El presente proyecto consiste en el desarrollo de una consola de 4 juegos en leg
 
 -`Pinpong:`
 
+El juego desarrollado de Ping-Pong se implementó con la biblioteca de Pygame. Y la finalidad del juego es que dos jugadores compiten controlando paletas para golpear una pelota.  El jugador de la izquierda se mueve con las teclas W y S para trasladarse hacia arriba o abajo, mientras que el jugador de la derecha se traslada con las flechas de arriba y abajo. Se gana el juego cuando un de los jugadores lleguen a la puntuación de 10 y cada punto se obtiene cuando a su contrincante no pueda golpear la pelota y esta se vaya fuera de la pantalla. Después de cada punto obtenido la pelota se reinicia en el centro de la pantalla.
 
 -`Snake:`
 
@@ -34,9 +35,9 @@ Una vez iniciado el juego, cuando un enemigo llega a la parte inferior de la pan
 
 La función que inicia el juego es `game_intro()`, esta se encarga de controlar la pantalla de inicio del juego y presentar opciones para comenzar o salir. Cabe destacar que la función `game_loop()` es la función principal que maneja el bucle del juego. Controla eventos, el movimiento del jugador, la lógica de los enemigos, las colisiones y la actualización constante de la pantalla.
 La función `fire_bullet(x, y)` gestiona el disparo de balas desde la posición del jugador. Este aspecto es crucial para la mecánica del juego.
+
 Función `isCollision(enemyX, enemyY, bulletX, bulletY)` determina si ha ocurrido una colisión entre una bala y un enemigo. Esta función afecta directamente al puntaje y al reinicio de la posición de los enemigos.
-La función `show_score(x, y)` muestra la puntuación actual en la pantalla, y la unica forma de reiniciar el score es con la función `restart_game()` se utiliza para reiniciar las variables del juego cuando es necesario, como después de que el jugador pierde.
-La función `pause_game()` permite pausar el juego de forma segura, manteniendo el puntaje actual del usuario; y la función `draw_game_over_screen()` muestra la pantalla de Game Over y proporciona opciones para volver a jugar o salir.
+La función `show_score(x, y)` muestra la puntuación actual en la pantalla, y la unica forma de reiniciar el score es con la función `restart_game()` se utiliza para reiniciar las variables del juego cuando es necesario, como después de que el jugador pierde. La función `pause_game()` permite pausar el juego de forma segura, manteniendo el puntaje actual del usuario; y la función `draw_game_over_screen()` muestra la pantalla de Game Over y proporciona opciones para volver a jugar o salir.
 
 -`Flappy Bird:`
 
